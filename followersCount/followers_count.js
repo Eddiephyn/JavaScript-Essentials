@@ -19,3 +19,10 @@ function checkCountValue() {
 function displayCount() {
 document.getElementById('countDisplay').innerHTML=count; // Display the count in the HTML
 }
+
+function resetCount() {
+  count = 0; // Reset the count
+  displayCount(); // Update the displayed count
+  alert("Back to zero"); // Show alert message
+}
+
