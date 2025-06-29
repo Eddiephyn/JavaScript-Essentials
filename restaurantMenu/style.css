@@ -1,0 +1,34 @@
+/* Set lavender background and basic body styling */
+body {
+  background-color: lavender;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Style the main title */
+h1 {
+  text-align: center;
+  color: #4b0082; /* Indigo for contrast */
+  margin-bottom: 30px;
+}
+
+/* Style section headers */
+h2 {
+  color: #6a5acd; /* SlateBlue */
+  border-bottom: 2px solid #9370db; /* MediumPurple */
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+/* Menu item containers */
+div[id$="MenuItems"],
+div[id$="TotalItems"] {
+  background-color: #f8f8ff; /* GhostWhite for subtle contrast */
+  border: 1px solid #d8bfd8; /* Thistle border */
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
